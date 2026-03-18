@@ -10,7 +10,7 @@
 openclaw-guide/
 ├── README.md                    # 本文件：10 件必做的事
 ├── templates/
-│   ├── so.md.template           # 灵魂文件模板
+│   ├── soul.md.template           # 灵魂文件模板
 │   ├── USER.md.template         # 使用者档案模板
 │   ├── AGENTS.md.template       # 工作指南模板
 │   ├── TOOLS.md.template        # 工具配置模板
@@ -32,7 +32,7 @@ OpenClaw 的配置分三个层级，理解这个结构是一切的前提：
 
 | 层级 | 文件 | 作用 | 修改频率 |
 |------|------|------|----------|
-| 灵魂层 | `so.md` | 性格、价值观、红线 | 极少改 |
+| 灵魂层 | `soul.md` | 性格、价值观、红线 | 极少改 |
 | 身份层 | `USER.md` | 你是谁、你要干嘛 | 每季度 |
 | 行为层 | `AGENTS.md` | 怎么干活 | 偶尔改 |
 | 工具层 | `TOOLS.md` | 能用什么工具 | 按需改 |
@@ -45,7 +45,7 @@ OpenClaw 的配置分三个层级，理解这个结构是一切的前提：
 
 ### ① 先写灵魂文件，再做其他任何事
 
-**对应文件：`so.md`**
+**对应文件：`soul.md`**
 
 这是 Claw 的出厂设置，所有行为的底层逻辑。没有这个文件，后面的一切配置都是在沙上建楼。
 
@@ -55,7 +55,7 @@ OpenClaw 的配置分三个层级，理解这个结构是一切的前提：
 - **隐私红线**：手机号、银行卡、住址、密码，永远不给、永远不传
 - **学习与反馈机制**：说对了怎么强化，说错了怎么纠正
 
-📄 [查看 so.md 模板](./templates/so.md.template)
+📄 [查看 soul.md 模板](./templates/soul.md.template)
 
 ---
 
@@ -243,7 +243,7 @@ USER.md → AGENTS.md → TOOLS.md → [稳定运行1-2周] → HEARTBEAT.md
 
 | 文件 | 必填字段 | 更新频率 | 模板 |
 |------|---------|----------|------|
-| `so.md` | 性格、价值观、隐私红线、反馈机制 | 极少 | [→](./templates/so.md.template) |
+| `soul.md` | 性格、价值观、隐私红线、反馈机制 | 极少 | [→](./templates/soul.md.template) |
 | `USER.md` | 职业背景、当前目标、沟通偏好 | 每季度 | [→](./templates/USER.md.template) |
 | `AGENTS.md` | 任务流程、决策边界、升级路径 | 偶尔 | [→](./templates/AGENTS.md.template) |
 | `TOOLS.md` | 每个工具的允许/禁止操作 | 按需 | [→](./templates/TOOLS.md.template) |

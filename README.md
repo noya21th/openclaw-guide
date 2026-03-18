@@ -253,10 +253,10 @@ USER.md → AGENTS.md → TOOLS.md → [稳定运行1-2周] → HEARTBEAT.md
 
 ## 关于这个项目
 
-整理自飞书玩虾大会直播内容（李诞 × 呼兰 × 飞叔），结合 OpenClaw 实际使用经验。
+综合自己及网友们的 OpenClaw 实际使用经验。
 
 欢迎提 Issue 或 PR 补充你的使用心得。
 
 ---
 
-*OpenClaw 官方：[github.com/OpenClaw](https://github.com) · 飞书妙搭：在飞书内搜索「妙搭」*
+*OpenClaw 官方：[github.com/OpenClaw](https://github.com)*

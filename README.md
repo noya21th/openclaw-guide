@@ -168,7 +168,11 @@ Claw 的所有判断都基于「它在帮谁」。这个文件越详细，它的
 OpenClaw 是开源软件，Skill 市场鱼龙混杂——就像当年找暴风影音能找到二十个假链接一样。
 
 **只去这些地方学 Skill**：
-- 字节官方：[扣子（Coze）平台](https://www.coze.cn)
+- 字节官方：[扣子（Coze）](https://www.coze.cn)
+- 腾讯官方：[SkillHub](https://skillhub.tencent.com) — 全中文、已安全审核、国内高速下载
+- 阿里官方：[百炼平台](https://bailian.aliyun.com) — 集成通义千问，支持一键部署
+- OpenClaw 官方：[ClawHub](https://clawhub.ai) — 原版市场，3000+ Skill
+- 进阶用户：[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) — GitHub，5400+
 - OpenClaw 官方仓库和文档
 - 你信任的、有技术背景的朋友分享的
 

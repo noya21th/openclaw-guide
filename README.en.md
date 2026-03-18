@@ -58,7 +58,7 @@ Four things you must define:
 - **Privacy hard limits**: Phone number, bank card, address, passwords — never share, never transmit
 - **Learning & feedback loop**: How to reinforce good behavior, how to correct mistakes
 
-📄 [View soul.md template](./templates/soul.md.template)
+📄 [View soul.md template](./templates/soul.md.template.en)
 
 ---
 
@@ -76,7 +76,7 @@ Must include:
 
 > **Common mistake**: Don't put workflow instructions in USER.md. USER.md describes "who you are." AGENTS.md describes "how it works." Keep them separate.
 
-📄 [View USER.md template](./templates/USER.md.template)
+📄 [View USER.md template](./templates/USER.md.template.en)
 
 ---
 
@@ -101,7 +101,7 @@ Step 4: Deliver + summary
 
 Without an escalation path, Claw will find a workaround and tell you after. With one, it stops and waits for you.
 
-📄 [View AGENTS.md template](./templates/AGENTS.md.template)
+📄 [View AGENTS.md template](./templates/AGENTS.md.template.en)
 
 ---
 
@@ -120,7 +120,7 @@ Many people only write "can use browser" — but forget to write "cannot log int
 | Voice | Show transcription first; ask before acting on ambiguous input |
 | Camera | Don't activate without instruction; don't store; don't scan faces |
 
-📄 [View TOOLS.md template](./templates/TOOLS.md.template)
+📄 [View TOOLS.md template](./templates/TOOLS.md.template.en)
 
 ---
 
@@ -217,7 +217,7 @@ USER.md → AGENTS.md → TOOLS.md → [run stable for 1–2 weeks] → HEARTBEA
 2. **Triggered tasks**: PR/sentiment alerts, deadline reminders
 3. **Guardian tasks**: daily self-check, rule conflict detection
 
-📄 [View HEARTBEAT.md template](./templates/HEARTBEAT.md.template)
+📄 [View HEARTBEAT.md template](./templates/HEARTBEAT.md.template.en)
 
 ---
 
@@ -246,11 +246,11 @@ Users who get great results got there because they fed data every day, corrected
 
 | File | Required fields | Update frequency | Template |
 |------|----------------|-----------------|----------|
-| `soul.md` | Personality, values, privacy limits, feedback mechanism | Rarely | [→](./templates/soul.md.template) |
-| `USER.md` | Professional background, current goals, communication preferences | Quarterly | [→](./templates/USER.md.template) |
-| `AGENTS.md` | Task workflow, decision boundaries, escalation path | Occasionally | [→](./templates/AGENTS.md.template) |
-| `TOOLS.md` | Allow/block list for each tool | As needed | [→](./templates/TOOLS.md.template) |
-| `HEARTBEAT.md` | Scheduled tasks, trigger conditions, self-check rules | After stable | [→](./templates/HEARTBEAT.md.template) |
+| `soul.md` | Personality, values, privacy limits, feedback mechanism | Rarely | [→](./templates/soul.md.template.en) |
+| `USER.md` | Professional background, current goals, communication preferences | Quarterly | [→](./templates/USER.md.template.en) |
+| `AGENTS.md` | Task workflow, decision boundaries, escalation path | Occasionally | [→](./templates/AGENTS.md.template.en) |
+| `TOOLS.md` | Allow/block list for each tool | As needed | [→](./templates/TOOLS.md.template.en) |
+| `HEARTBEAT.md` | Scheduled tasks, trigger conditions, self-check rules | After stable | [→](./templates/HEARTBEAT.md.template.en) |
 
 ---
 

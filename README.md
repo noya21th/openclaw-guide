@@ -1,7 +1,5 @@
 🇨🇳 中文 | [🇬🇧 English](./README.en.md)
 
-🇨🇳 中文 | [🇬🇧 English](./README.en.md)
-
 # 使用 OpenClaw 一定要做的 10 件事
 
 

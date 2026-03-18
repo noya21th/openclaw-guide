@@ -1,5 +1,5 @@
 
-<img width="1128" height="1336" alt="image" src="https://github.com/user-attachments/assets/d64a275b-c765-44bc-9740-6e85d67c042c" />
+<img width="225.6" height="267.2" alt="image" src="https://github.com/user-attachments/assets/d64a275b-c765-44bc-9740-6e85d67c042c" />
 
 
 🇨🇳 中文 | [🇬🇧 English](./README.en.md)

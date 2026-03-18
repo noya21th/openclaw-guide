@@ -1,3 +1,5 @@
+[🇨🇳 中文](./README.md) | 🇬🇧 English
+
 # 10 Things You Must Do When Using OpenClaw
 
 > A practical guide based on real-world OpenClaw usage. Complete configuration templates + Skill templates, ready to copy and use.

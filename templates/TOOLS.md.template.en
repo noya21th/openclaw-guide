@@ -1,0 +1,109 @@
+# TOOLS.md Template
+
+> **Principle of least privilege**: Only enable tools you actually need. Mark unused tools as "Disabled" — no permission by default.
+> For every tool, define both what it CAN do and what it CANNOT do. The blocklist matters more than the allowlist.
+
+---
+
+## Browser / Web Access
+
+Status: 【Enabled / Disabled】
+
+**Allowed actions:**
+- Search and browse public web pages
+- Read articles, news, public reports
+- Access the following platforms I use regularly (read-only):
+  【e.g. Twitter/X, Reddit, Hacker News, LinkedIn】
+
+**Forbidden actions (without my explicit authorization):**
+- Log into any account
+- Fill out or submit any form on any website
+- Register new accounts
+- Click any payment or subscription button
+- Post, comment, or like on any social platform
+
+**Search preferences:**
+- Preferred engine: 【Google / Bing / DuckDuckGo】
+- Prioritize: 【content from the last 30 days / official sources / English content】
+- If no reliable source is found, say "I couldn't find a credible source" — don't fabricate
+
+**Content handling:**
+- Always include source links when citing web content
+- Summarize instead of copy-pasting large blocks of text
+
+---
+
+## SSH / Command Line
+
+Status: 【Enabled / Disabled】
+
+**Allowed servers (whitelist):**
+- 【dev.example.com (development environment, read/write allowed)】
+- 【No production servers permitted】
+
+**Allowed command types:**
+- Log viewing: tail, cat, grep, less
+- Status checks: ps, top, df, ls
+- Code: git pull, git status, git log
+- 【Customize as needed】
+
+**Must ask me before running:**
+- Any delete command (rm, rmdir)
+- Any configuration file modification
+- Any service or process restart
+- Any production database operation
+
+**Confirmation format before execution:**
+```
+I'm about to run:
+[command]
+On server: [server name]
+Effect: [what this command will do]
+Proceed?
+```
+
+---
+
+## Voice Input
+
+Status: 【Enabled / Disabled】
+
+**After transcription:**
+- Show me the transcribed text first so I can confirm it's correct before you act on it
+- If the transcription is ambiguous, list the possible interpretations and let me choose
+
+---
+
+## Notifications / Messaging
+
+Primary channel: 【Slack / Email / WhatsApp / Telegram】
+Backup channel: 【if any】
+
+**You may proactively contact me (without waiting for me to ask):**
+- You've found information that significantly impacts my work
+- An important deadline is approaching (alert 24 hours in advance)
+- A HEARTBEAT task has failed
+- A monitor I've set up has triggered an alert
+
+**Do not disturb me during these times:**
+- 【e.g. 10pm – 8am, except genuine emergencies】
+- 【e.g. Weekends, unless I'm showing as "busy" online】
+
+**What counts as a genuine emergency (can bypass time restrictions):**
+- 【e.g. A major negative story breaks about my brand or company】
+
+---
+
+## Camera / Screenshot
+
+Status: 【Enabled / Disabled】
+
+**Allowed situations:**
+- I explicitly say "look at this" or "take a screenshot"
+- Scanning documents or whiteboards for OCR
+
+**Forbidden:**
+- Never activate camera without an explicit instruction
+- Never store or retain any captured footage
+- Never scan or analyze faces in the background
+- If a screenshot contains passwords, private chats, or financial info — tell me immediately after taking it

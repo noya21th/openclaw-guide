@@ -1,0 +1,135 @@
+# HEARTBEAT.md Template
+
+> **Important**: This file enables Claw to run tasks automatically while you're offline. Before configuring any task, ask yourself: **if this task runs and something goes wrong, what's the consequence?**
+> For anything with unacceptable consequences, add a "notify me to confirm before executing" safeguard.
+>
+> **Recommended**: Get USER.md, AGENTS.md, and TOOLS.md running stably for 1–2 weeks before configuring this file.
+
+---
+
+## Daily Scheduled Tasks
+
+### Morning Briefing
+
+Trigger time: Every day at 【08:00】
+Task:
+1. Search for news and social media content from the past 24 hours related to 【your company / brand / industry keywords】
+2. Rank by importance and pick the top 5 most relevant items
+3. For each item, include: headline, source, one-line summary, sentiment (positive / neutral / negative)
+
+Delivery: Send to my 【Slack / Email / Telegram】
+
+Format:
+```
+📰 Morning Briefing — [date]
+---
+1. [Headline] | [Source] | [Sentiment]
+   Summary: [one sentence]
+   Link: [URL]
+---
+[X relevant items found in total; above are the top 5]
+```
+
+On failure: Send "Morning briefing search failed — reason: [reason]"
+
+---
+
+### To-Do Reminder
+
+Trigger time: Every day at 【09:00】
+Task:
+1. Check the to-do items recorded in memory.md
+2. Alert me to anything due today
+3. Give me a heads-up on anything due tomorrow
+
+On no items: Send "No follow-ups scheduled for today"
+
+---
+
+## Weekly Scheduled Tasks
+
+### Weekly Digest Prep
+
+Trigger time: Every 【Friday】 at 【4:00 PM】
+Task:
+1. Summarize the main tasks completed in our conversations this week
+2. List important items added to memory.md this week
+3. List any next-week follow-ups I've mentioned
+
+Delivery: Send to 【Slack】 in a format I can paste directly into a status update
+Note: Compile the raw material only — don't write the update for me
+
+---
+
+## Triggered Tasks
+
+### Sentiment Alert
+
+Monitor frequency: Every 【2】 hours
+Monitor targets: 【your company name, brand name, product name, industry sensitive terms】
+
+Trigger if any of the following is true:
+- Negative content appears with engagement above 【500】
+- More than 【3】 articles on the same topic appear within 2 hours
+- Keywords like 【regulatory / penalty / violation / data breach】 appear
+
+On trigger:
+1. Notify me immediately (bypass any time restrictions — this is urgent)
+2. Include: trigger keyword, source, content summary, link
+3. Add a quick read: is this a real risk or noise?
+
+Format:
+```
+🚨 Sentiment Alert
+Trigger: [keyword]
+Source: [platform / outlet]
+Published: [time]
+Summary: [two sentences]
+Initial read: [Real risk / Likely noise — suggested next step: [what to do]]
+Link: [URL]
+```
+
+---
+
+### Deadline Alert
+
+Trigger: For any deadline recorded in memory.md, send reminders at both 48 hours and 24 hours before
+On trigger: Send a reminder including: what it is, time remaining, and any related progress I've previously mentioned
+
+---
+
+## Guardian Tasks
+
+### Daily Self-Check
+
+Trigger time: Every day at 【11:30 PM】
+Task: Review all actions taken today and check:
+1. Was anything executed without authorization?
+2. Was there any risk of sensitive information being exposed?
+3. Does memory.md need updating? (was anything important from today not recorded?)
+4. Is there anything I need to know about tomorrow?
+
+Delivery: Only notify me if there's an issue. If everything is clean, no message needed.
+
+---
+
+### Rule Conflict Check
+
+Trigger time: Every 【Monday】 morning
+Task:
+1. Check soul.md, USER.md, and AGENTS.md for any contradictory rules
+2. Check memory.md for outdated or conflicting entries
+3. If conflicts are found, list them and wait for me to decide — don't resolve them on your own
+
+---
+
+### HEARTBEAT Health Check
+
+Trigger time: Every 【Monday】 morning
+Task:
+1. Review last week's scheduled and triggered task execution
+2. What ran successfully? What failed? Why?
+3. Are there any tasks that seem low-value and worth removing?
+4. Any suggestions for new tasks to add?
+
+Delivery: Short report to 【Slack / Email】
